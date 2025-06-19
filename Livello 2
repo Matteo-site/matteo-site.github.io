@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Matteo – Sito personale</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+        background-color: #111;
+        color: #eee;
+        line-height: 1.6;
+      }
+      nav {
+        background-color: #000;
+        padding: 1rem;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+        border-bottom: 1px solid #333;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 2rem;
+      }
+      nav a {
+        color: #eee;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.2s;
+      }
+      nav a:hover {
+        color: #999;
+      }
+      section {
+        max-width: 800px;
+        margin: 100px auto 40px;
+        padding: 0 20px;
+      }
+      h1,
+      h2 {
+        margin-bottom: 1rem;
+      }
+      footer {
+        text-align: center;
+        padding: 2rem;
+        border-top: 1px solid #333;
+        color: #666;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#chi-sono">Chi sono</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+      </ul>
+    </nav>
+    <section id="home">
+      <h1>Benvenuto</h1>
+      <p>Questo è il sito personale di Matteo. Progetto minimal, essenziale, diretto.</p>
+    </section>
+    <section id="chi-sono">
+      <h2>Chi sono</h2>
+      <p>Studente, curioso, costruisco il mio spazio online da zero.</p>
+    </section>
+    <section id="contatti">
+      <h2>Contatti</h2>
+      <p>Email: matteo@example.com<br />Instagram: @matteo</p>
+    </section>
+    <footer>© Matteo – Tutti i diritti riservati</footer>
+  </body>
+</html>
